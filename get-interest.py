@@ -24,6 +24,6 @@ print( getInterest(ENDWERT, BARWERT, JAHRE) )
 
 def getAccumulatedValue(b, z, j):
 	q = 1 + z
-	return ( ( z * ( q ** j )) / (( q ** j ) - 1) ) * b
+	return b * ( ( z * ( q ** j )) / (( q ** j ) - 1) )
 
 print( getAccumulatedValue(BARWERT, ZINS, JAHRE) )
