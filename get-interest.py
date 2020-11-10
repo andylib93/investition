@@ -12,11 +12,18 @@ i = ( 15.000 / 10.000 ) ** ( 1/10 ) - 1
 
 '''
 
-BARWERT = 10.000
-ENDWERT = 15.000
-JAHRE = 10
+BARWERT = 20000
+ENDWERT = 15000
+JAHRE = 50
+ZINS = 0.02
 
 def getInterest(e, b, j):
 	return ( e / b ) ** ( 1 / j ) - 1
 
 print( getInterest(ENDWERT, BARWERT, JAHRE) )
+
+def getAccumulatedValue(b, z, j):
+	q = 1 + z
+	return ( ( z * ( q ** j )) / (( q ** j ) - 1) ) * b
+
+print( getAccumulatedValue(BARWERT, ZINS, JAHRE) )
