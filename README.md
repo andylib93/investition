@@ -10,5 +10,5 @@ The ultimate **fallback** of course is using the python interpreter: ```python3 
 Install Python [here](https://python.org).<br>
 The next important step to look out for is that every variable (usually written in CAPITALS) needs to be manually set if you would like to use your own numbers.<br>
 Also comment out every function that you don't want to be executed with a ```#```-Symbol, like ```#print(functionCall)```.<br>
-I make use of the ```print()```-statement for printing the ```return```-value<br>
+I make use of the ```print()```-statement for printing the ```return```-value.<br><br>
 That'll be all for now, ```happy learning``` 🤓
